@@ -1,5 +1,3 @@
-import Calendar from "@ericz1803/react-google-calendar";
-
 const API_KEY = process.env.REACT_APP_GOOGLE_CALENDAR_API;
 const API_KEYA = process.env.REACT_APP_GOOGLE_CALENDAR_A;
 const API_KEYB = process.env.REACT_APP_GOOGLE_CALENDAR_B;
