@@ -58,7 +58,7 @@ exports.handler = function(event, context, callback) {
 
       callback(null, {
           statusCode: 200,
-          body: a, // this body has to be a string
+          body: API_KEY, // this body has to be a string
 		 
        })
 
