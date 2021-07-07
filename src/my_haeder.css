@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+ [class*="fontawesome-"]:before {
+	 font-family: 'FontAwesome', sans-serif;
+}
+ * {
+	 box-sizing: border-box;
+}
+ *:before, *:after {
+	 box-sizing: border-box;
+}
+
+ .container {
+	 text-align: center;
+	 max-width: 60em;
+	 min-width: 45em;
+	 margin: 0 auto;
+	 padding: 0 2em;
+}
+
+.pig{
+	width: 55px;
+	height: 55px;
+	margin-right: 11px;
+}
+ nav {
+	 position: fixed;
+	 width: 100%;
+	 margin: 0 auto;
+	 top: 0;
+	 z-index: 3;
+}
+ nav ul {
+	 padding: 0;
+	 margin: 0;
+	 list-style-type: none;
+	 float: right;
+}
+ nav li {
+	 display: inline-block;
+	 padding: 2em;
+	 text-align: center;
+	 transition: all 0.2s;
+}
+ nav li:last-child {
+	 padding-right: 0;
+}
+ nav a {
+	 color: #fff;
+	 text-decoration: none;
+	 transition: all 0.3s;
+}
+ nav a:hover {
+	 color: #ddd;
+}
+ #icon {
+	 display: inline-block;
+	 padding-top: 0.7em;
+	 font-size: 2em;
+	 font-weight: 700;
+	 text-transform: uppercase;
+}
+ #nav-bg {
+	 background: #222;
+	 position: fixed;
+	 height: 5em;
+	 width: 100%;
+	 top: 0;
+	 z-index: 1;
+}
+ .top_header {
+	 position: relative;
+	 background-color: #fff;
+	 padding: 2em 0 2em;
+	 z-index: 2;
+}
+ .top_header h1 {
+	 display: inline-block;
+	 color: black;
+	 font-size: 3em;
+	 text-transform: uppercase;
+	 text-align: center;
+	 margin-top : 0;
+	 margin-bottom : 0;
+}
+ .top_header p {
+	 color: #676262;
+	 font-size: 1.5em;
+	 text-align: center;
+	 margin-top : 0;
+}
+ #about {
+	 background: #e7e3da;
+	 height: 70em;
+	 padding: 5em 0;
+}
+ #about p {
+	 line-height: 2em;
+	 font-size: 1.4em;
+	 margin: 0;
+	 color: #222;
+}
